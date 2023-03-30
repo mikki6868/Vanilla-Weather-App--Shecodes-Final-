@@ -7,6 +7,7 @@ h1 {
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
+  padding-top: 10px;
 }
 ul {
   margin: 0;
@@ -52,8 +53,24 @@ a {
 }
 .weather-temperature .active {
   color: black;
-  cursor: default; 
+  cursor: default;
 }
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forcast-temperatures {
+  font-size: 13px;
+}
+
+.weather-forcast-temperature-min {
+  opacity: 0.5;
 }
